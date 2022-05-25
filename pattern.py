@@ -1,0 +1,10 @@
+row=14
+print("*"*row,end='\n')
+i=(row//2) -1
+j=2
+while i!=0:
+    print("*"*i,end='')
+    print(" "*j,end='')
+    print("*"*i,end='\n')
+    i=i-1
+    j=j+2
